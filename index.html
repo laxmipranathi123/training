@@ -10,13 +10,24 @@
   <!-- Navbar -->
   <header>
     <h1 class="logo">MyPortfolio</h1>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
+  
+    <!-- Hamburger Icon -->
+    <div class="menu-toggle" onclick="toggleMenu()">
+      ☰
+    </div>
+  
+    <nav id="nav-menu">
+      <a href="#about" onclick="toggleMenu()">About</a>
+      <a href="#skills" onclick="toggleMenu()">Skills</a>
+      <a href="#projects" onclick="toggleMenu()">Projects</a>
+      <a href="#contact" onclick="toggleMenu()">Contact</a>
     </nav>
   </header>
+  
+  <!-- JS file -->
+  <script src="script.js"></script>
+
+  
 
   <!-- Hero Section -->
   <section class="hero">
